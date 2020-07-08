@@ -172,6 +172,26 @@ h1, h2, h3{
     margin-left: auto;
     margin-right: auto;
 }
+.my-indicator{
+    position: relative;
+    top: 244px;
+    left: 38px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: gray;
+    
+}
+.carousel-indicators .active {
+    background-color: #21B573; 
+}
 .testimonial h2{
     font-weight: 600;
     padding: 0 0 17px 40px;
